@@ -46,6 +46,12 @@ a {
     font-size: 3.8rem;
     line-height: 1.26;
 }
+.lv3 {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
 .desc {
     color: #5F5B53;
     font-size: 1.8rem;
@@ -235,6 +241,7 @@ a {
 }
 .popular .popular-top .desc {
     padding-top: 16px;
+    width: 458px;
 }
 .popular-top .control {
     display: flex;
@@ -252,3 +259,103 @@ a {
 .popular-top .control .chev:hover {
     background-color: var(--primary-color);
 }
+/* courses */
+.courses-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+}
+.courses-list .courses-items {
+    width: 33%;
+    border-radius: 12px;
+}
+.courses-list .thumb {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+.courses-list .info {
+    padding: 16px 22px 32px;
+}
+.courses-items .info .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses-items .head span {
+    color: #FEA31B;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+.courses-items .info .desc {
+    padding-top: 7px;
+}
+.courses-items .info .price {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 12px 0 22px;
+}
+.courses-items .price .cost {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+.courses-items .price .book {
+    padding: 12px 24px;
+    cursor: pointer;
+
+}
+.courses-items .price .book:hover {
+    background: var(--primary-color);
+}
+/* feeling */
+.feeling {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    background: #2E2100;
+}
+.feeling .avatar-block {
+  padding: 96px 135px;
+}
+.feeling .avatar-block .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feeling .avatar-block .name {
+    color: #F7F7F7;
+    font-size: 2.4rem;
+    padding-top: 18px;
+}
+.feeling .avatar-block .desc {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    line-height: 1.85;
+    padding-top: 4px; 
+}
+.feeling .avatar-block .etc {
+    padding-top: 28px;
+}
+.feeling .etc .dot:nth-child(even) {
+    margin: 0 6px;
+}
+.feeling .etc .dot:hover {
+    background-color: var(--primary-color);
+}
+blockquote {
+    width: 51%;
+    padding: 96px 135px 96px 0;
+}
+blockquote .feel {
+    width: 740px;
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.53; /* 153.846% */
+    margin-left: 30px;
+    }
