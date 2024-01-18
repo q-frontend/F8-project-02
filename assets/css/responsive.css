@@ -63,10 +63,11 @@
   .menu-drawer ul {
     margin-top: 30px;
   }
-  .menu-drawer ul a {
-    padding: 14px;
-    display: block;
-    color: #333;
+  .menu-drawer ul li {
+    padding: 20px 0;
+  }
+  .menu-drawer:target {
+    display: none;
   }
   .menu-checkbox:checked ~ .menu-overlay {
     opacity: 1;
@@ -93,5 +94,110 @@
   }
   .show-on-mobile:nth-of-type(5) {
     border-top: 1px solid rgb(167, 161, 161);
+  }
+  .hero .media-block {
+    width: 100%;
+  }
+  .hero .media-block .img {
+    width: 100%;
+  }
+  .hero .hero-summary {
+    left: 0;
+  }
+  .hero .content-block {
+    width: 100%;
+    margin-left: 0;
+  }
+  .content-block .stats strong {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hero .content-block .stats {
+    text-align: center;
+  }
+  .popular .popular-top {
+    flex-direction: column;
+  }
+  .popular .popular-top .info {
+    width: 100%;
+  }
+  .popular-top .control {
+    margin: 50px auto;
+    scale: 3;
+  }
+  .courses-list {
+    flex-direction: column;
+  }
+  .courses-list .courses-items {
+    width: 100%;
+  }
+  .courses-list .thumb {
+    width: 100%;
+    height: auto;
+  }
+  .feeling .content {
+    flex-direction: column;
+  }
+  .feeling .avatar-block {
+    margin: 0 auto;
+  }
+  blockquote {
+    width: 100%;
+    padding-right: 0;
+  }
+  .featured .content {
+    flex-direction: column;
+  }
+  .featured .images {
+    flex-direction: column;
+    row-gap: 30px;
+    width: 100%;
+  }
+  .featured .images .img {
+    width: 100%;
+  }
+  .featured-2nd .images .img-2nd {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .blog .blog-list {
+    flex-direction: column;
+  }
+  .blog .blog-list .blog-item {
+    width: 100%;
+  }
+  .blog .blog-item .blog-cta {
+    display: block;
+    width: 118px;
+    margin-left: auto;
+
+    margin-right: auto;
+  }
+  .blog .blog-item .thumb {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    padding: 30px 10px;
+  }
+  footer .body {
+    flex-direction: column;
+  }
+  footer .body .info {
+    width: 100%;
+  }
+  footer .footer-list {
+    margin-top: 40px;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  footer .body .contact {
+    width: 100%;
+    overflow: hidden;
+  }
+  footer .contact p {
+    width: 90%;
   }
 }

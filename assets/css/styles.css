@@ -6,6 +6,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -125,7 +126,7 @@ a {
   position: relative;
 }
 .hero .media-block .img {
-  width: 470px;
+  max-width: 470px;
   height: 685px;
   object-fit: cover;
   border-radius: 12px;
@@ -237,7 +238,7 @@ a {
 }
 .popular .popular-top .desc {
   padding-top: 16px;
-  width: 458px;
+  max-width: 458px;
 }
 .popular-top .control {
   display: flex;
@@ -266,7 +267,7 @@ a {
   border-radius: 12px;
 }
 .courses-list .thumb {
-  width: 370px;
+  max-width: 370px;
   height: 278px;
   object-fit: cover;
   border-radius: 12px 12px 0 0;
@@ -349,7 +350,7 @@ blockquote {
   padding: 96px 135px 96px 0;
 }
 blockquote .feel {
-  width: 740px;
+  max-width: 740px;
   color: #fff;
   font-size: 2.6rem;
   font-style: italic;
@@ -381,7 +382,7 @@ blockquote .feel {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  width: 470px;
+  max-width: 470px;
 }
 .featured .info .desc {
   margin-top: 16px;
@@ -399,13 +400,13 @@ blockquote .feel {
   justify-content: space-between;
 }
 .featured-2nd .info {
-  width: 570px;
+  max-width: 570px;
 }
 .featured-2nd .images {
   margin: 0;
 }
 .featured-2nd .images .img-2nd {
-  width: 470px;
+  max-width: 470px;
   height: 440px;
   object-fit: cover;
   margin-left: 130px;
@@ -426,7 +427,7 @@ blockquote .feel {
 }
 .blog .top-row .desc {
   margin-top: 16px;
-  width: 448px;
+  max-width: 448px;
 }
 .blog .blog-list {
   display: flex;
